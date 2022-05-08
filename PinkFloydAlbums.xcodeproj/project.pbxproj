@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		8AA7DDCF2822F22500222AA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7DDCE2822F22500222AA6 /* AppDelegate.swift */; };
 		8AA7DDD12822F22500222AA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7DDD02822F22500222AA6 /* SceneDelegate.swift */; };
-		8AA7DDD32822F22500222AA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7DDD22822F22500222AA6 /* ViewController.swift */; };
 		8AA7DDD62822F22500222AA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA7DDD42822F22500222AA6 /* Main.storyboard */; };
 		8AA7DDD82822F22700222AA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA7DDD72822F22700222AA6 /* Assets.xcassets */; };
 		8AA7DDDB2822F22700222AA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA7DDD92822F22700222AA6 /* LaunchScreen.storyboard */; };
+		8AA7DDE32822F43300222AA6 /* AlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7DDE22822F43200222AA6 /* AlbumsTableViewController.swift */; };
+		8AA7DDE528230D7F00222AA6 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7DDE428230D7F00222AA6 /* AlbumTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8AA7DDCB2822F22500222AA6 /* PinkFloydAlbums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinkFloydAlbums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA7DDCE2822F22500222AA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AA7DDD02822F22500222AA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8AA7DDD22822F22500222AA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8AA7DDD52822F22500222AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AA7DDD72822F22700222AA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AA7DDDA2822F22700222AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AA7DDDC2822F22700222AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AA7DDE22822F43200222AA6 /* AlbumsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewController.swift; sourceTree = "<group>"; };
+		8AA7DDE428230D7F00222AA6 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				8AA7DDCE2822F22500222AA6 /* AppDelegate.swift */,
 				8AA7DDD02822F22500222AA6 /* SceneDelegate.swift */,
-				8AA7DDD22822F22500222AA6 /* ViewController.swift */,
 				8AA7DDD42822F22500222AA6 /* Main.storyboard */,
 				8AA7DDD72822F22700222AA6 /* Assets.xcassets */,
 				8AA7DDD92822F22700222AA6 /* LaunchScreen.storyboard */,
 				8AA7DDDC2822F22700222AA6 /* Info.plist */,
+				8AA7DDE22822F43200222AA6 /* AlbumsTableViewController.swift */,
+				8AA7DDE428230D7F00222AA6 /* AlbumTableViewCell.swift */,
 			);
 			path = PinkFloydAlbums;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA7DDD32822F22500222AA6 /* ViewController.swift in Sources */,
 				8AA7DDCF2822F22500222AA6 /* AppDelegate.swift in Sources */,
+				8AA7DDE32822F43300222AA6 /* AlbumsTableViewController.swift in Sources */,
 				8AA7DDD12822F22500222AA6 /* SceneDelegate.swift in Sources */,
+				8AA7DDE528230D7F00222AA6 /* AlbumTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
